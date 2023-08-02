@@ -1,28 +1,224 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chess.com</title>
     <link rel="stylesheet" href="topPlayers2023.css" />
-
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <div class="nav_top">
-          <a href="index.html"> <img src="../Assests/APULogo.png" alt="APULogo" /></a>
-          <img src="../Assests/ClubLogo.png" alt="ClubLogo">
+      <div class="nav_top">
+        <a href="index.html">
+          <img src="../Assests/APULogo.png" alt="APULogo"
+        /></a>
+        <img src="../Assests/ClubLogo.png" alt="ClubLogo" />
+      </div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../playChess.html">Play Chess</a></li>
+        <li><a href="../membership.html">Membership</a></li>
+        <li><a href="../achievements.html">Achievements</a></li>
+        <li><a href="../events.html">Events and Tournaments</a></li>
+        <li><a href="../resources.html">Resources</a></li>
+        <li><a href="../blogs.html">Blogs</a></li>
+        <li><a href="../contactUs.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <main class="blog">
+      <h1>Top chess players in the World</h1>
+
+      <div class="container">
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 5</div>
+          <img src="../Assests/magnus.jpg" style="width: 100%" />
         </div>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../about.html">About</a></li>
-            <li><a href="../playChess.html">Play Chess</a></li>
-            <li><a href="../membership.html">Membership</a></li>
-            <li><a href="../achievements.html">Achievements</a></li>
-            <li><a href="../events.html">Events and Tournaments</a></li>
-            <li><a href="../resources.html">Resources</a></li>
-            <li><a href="../blogs.html">Blogs</a></li>
-            <li><a href="../contactUs.html">Contact Us</a></li>
-          </ul>
-      </nav>
-</body>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 5</div>
+          <img src="../Assests/bobby-fischer.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 5</div>
+          <img src="../Assests/Alexander Alekhine.jpeg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 5</div>
+          <img src="../Assests/Garry Kasparov.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 5</div>
+          <img src="../Assests/Paul Morphy.jpg" style="width: 100%" />
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="../Assests/magnus.jpg"
+              style="width: 100%"
+              onclick="currentSlide(1)"
+              alt="Magnus Carlsen"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="../Assests/bobby-fischer.jpg"
+              style="width: 100%"
+              onclick="currentSlide(2)"
+              alt="Bobby Fischer"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="../Assests/Alexander Alekhine.jpeg"
+              style="width: 100%"
+              onclick="currentSlide(3)"
+              alt="Alexander Alekhine"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="../Assests/Garry Kasparov.jpg"
+              style="width: 100%"
+              onclick="currentSlide(4)"
+              alt="Garry Kasparov"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="demo cursor"
+              src="../Assests/Paul Morphy.jpg"
+              style="width: 100%"
+              onclick="currentSlide(5)"
+              alt="Paul Morphy"
+            />
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <h1>1. Magnus Carlsen</h1>
+        <h2>
+          Carlsen’s understanding of the game far exceeds anyone in chess
+          history.
+        </h2>
+        <img src="../Assests/magnus.jpg" alt="magnus" />
+        <p>
+          That could be because he is the only player on this list currently
+          active, or it could be due to his understanding and experience at such
+          a young age. At just 19 years old, Magnus Carlsen became the youngest
+          player to ever become number one in terms of rating. Then, from 2018
+          to 2020, Carlsen had the longest undefeated streak in chess, where he
+          didn’t lose for 125 games. This, along with his several World
+          Championships over the last several years, has ingrained him as a top
+          player in chess history.
+        </p>
+      </section>
+
+      <section>
+        <h1>2. Garry Kasparov</h1>
+        <h2>
+          Kasparov has been a crucial voice in chess since coming onto the
+          scene.
+        </h2>
+        <img src="../Assests/Garry Kasparov.jpg" alt="Garry Kasparov" />
+        <p>
+          While he originally represented Russia, he has since come out against
+          their dictatorship and he doesn’t want to be associated with them.
+          During his time as a chess player, Kasparov was known for his ability
+          to calculate a position far beyond his peers. At just 22 years, he
+          captured the World Chess Championship, becoming the youngest person
+          ever to do so.
+        </p>
+      </section>
+
+      <section>
+        <h1>3. Bobby Fischer</h1>
+        <h2>Fischer changed the way we think of chess- and how we play it!</h2>
+        <img src="../Assests/bobby-fischer.jpg" alt="bobby fischer" />
+
+        <p>
+          During the Cold War with Russia, there was also a political war
+          happening in chess. During a time when Spassky and other Russian Super
+          GMs easily controlled the chess game, Fischer was able to break
+          through and give Americans a player to root for. While he never held
+          the World Championship title as long as the other players on this
+          list, Fischer still dominated when he was at the top of his game. In
+          1963/64, during the US Chess Championship, Fischer became the only
+          player to achieve a perfect score and win, as he had six years prior.
+        </p>
+      </section>
+
+      <section>
+        <h1>4. Alexander Alekhine</h1>
+        <h2>
+          Alekhine was a Russian Grandmaster during the early 1900s, whose
+          influence still persists today.
+        </h2>
+        <img src="../Assests/Alexander Alekhine.jpeg" alt="Alexander Alekhine" />
+
+        <p>
+          While he was an incredible chess player who held the title for an
+          astounding 17 years, what set Alekhine apart from other chess players
+          was his aptitude for theory. Alekhine wrote over 20 chess books during
+          his career and he has several openings named after him.Although today
+          we think of Alekhine for his positional awareness and his opening
+          prowess, his attacking ability was renowned at the time. Like other
+          generational talents of chess, his ability to calculate far exceeded
+          those of his peers and it led to a career full of victories and theory
+          that lasted for decades.
+        </p>
+      </section>
+
+      <section>
+        <h1>5. Paul Morphy</h1>
+        <h2>
+          Morphy comes from a different era in chess when the game was more
+          artistic than scientific.
+        </h2>
+        <img src="../Assests/Paul Morphy.jpg" alt="Paul Morphy" />
+
+        <p>
+          Some people don’t feel Morphy belongs among the top players, because
+          when we analyse his games today, he often didn’t find the best moves.
+          But when he was playing in the 1850s, chess wasn’t the serious game it
+          was today. Rather, it was seen as a way for smart people to express
+          themselves artistically. The Greatest Chess Players to Ever Play the
+          Game Throughout chess history, there have been some incredible players
+          that have dominated their era so much that their greatness cannot be
+          denied! Chess great Magnus Carlsen From holding onto the World
+          Champion title for an absurd amount of time to sweeping tournaments
+          with the strongest GMs in the world to winning equal positions over
+          and over again, find out about the greatest chess players of all time.
+          5. Morphy was one of the best at playing an artistic game. His Opera
+          Game, arguably the most popular chess game of all time, is a pure
+          beauty- and its fame proves that. Morphy finds an incredible (yet
+          simple) queen sacrifice to win the game.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 APU Chess Club. All rights reserved.</p>
+    </footer>
+
+    <script src="topPlayers2023.js"></script>
+  </body>
 </html>

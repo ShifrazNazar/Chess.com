@@ -10,7 +10,7 @@
     <nav>
       <div class="nav_top">
         <a href="index.css"> <img src="Assests/APULogo.png" alt="APULogo" /></a>
-        <img src="Assests/ClubLogo.png" alt="ClubLogo">
+        <img src="Assests/ClubLogo.png" alt="ClubLogo" />
       </div>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -24,12 +24,32 @@
         <li><a href="contactUs.html">Contact Us</a></li>
       </ul>
     </nav>
-    <div class="main">
-      <img src="Assests/chess.jpg" alt="chess">
+
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-  <footer>
-    <p>&copy; 2023 APU Chess Club. All rights reserved.</p>
-  </footer>
+
+    <!-- The video -->
+    <video autoplay muted loop id="myVideo">
+      <source src="Assests/homeVideo.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Optional: some overlay text to describe the video -->
+    <div class="content">
+      <h1>Welcome APU Chess Club</h1>
+      <p>APU Chess Club is a prestigious university organization dedicated to fostering a passion for chess among students. With a rich history and a vibrant community of chess enthusiasts, the club offers a platform for students to engage in this intellectually stimulating and strategic game.
+
+        </p>
+      <!-- Use a button to pause/play the video with JavaScript -->
+      <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+
+    <footer>
+      <p>&copy; 2023 APU Chess Club. All rights reserved.</p>
+    </footer>
 
     <script src="index.js"></script>
   </body>
