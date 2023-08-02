@@ -88,3 +88,16 @@ body {
     margin: 10px 0;
   }
   
+  footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  
