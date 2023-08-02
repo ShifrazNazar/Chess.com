@@ -46,3 +46,10 @@ body {
   nav ul li a:hover {
     color: gray;
   }
+  .container{
+    align-items: center;
+    text-align: center;
+    display: block;
+    
+  }
+ 
