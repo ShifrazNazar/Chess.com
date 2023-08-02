@@ -46,3 +46,47 @@ body {
   nav ul li a:hover {
     color: gray;
   }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  article {
+    margin: 1rem;
+  }
+  
+  article h2 {
+    color: #333;
+  }
+  
+  article img {
+    display: block;
+    max-width: 100%;
+    margin: 1rem auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
