@@ -97,3 +97,19 @@ main .card .info p:first-of-type,
 main .card .single-demo p:first-of-type {
   font-weight: bold;
 }
+
+main .card button {
+  border: none;
+  outline: none;
+  background: none;
+  text-decoration: underline;
+  color: rgb(0, 179, 255);
+  transition: all .3s;
+  cursor: pointer;
+  /* display: block; */
+  /* font-size: 14px; */
+}
+
+main .card button:hover {
+  padding-top: .3rem;
+} 
