@@ -1,48 +1,99 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav {
-    padding: 10px;
-    background-color: white;
-    color: black;
-  }
-  
-  nav img {
-    height: 100px;
-  }
-  
-  .nav_top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 10px;
-  }
-  
-  ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 20px;
-    font-weight: bold;
-  }
-  
-  nav ul li a {
-    color: black;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    color: gray;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+nav img {
+  height: 100px;
+}
+
+.nav_top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: gray;
+}
+
+main {
+  padding: 1rem 2rem;
+  border-top: 1px solid #eee;
+  background: #f6f8f9;
+}
+
+main .card {
+  display: flex;
+  transition: all 0.3s;
+  margin-bottom: 2.5rem;
+  padding-right: 1rem;
+}
+
+main .card:hover {
+  background: #fff;
+}
+
+main .card .img-content {
+  width: 14rem;
+  position: relative;
+  overflow: visible;
+}
+
+main .card .img-content .rank {
+  position: absolute;
+  top: -0.5rem;
+  left: -0.5rem;
+  background: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.05);
+}
+
+main .card img {
+  width: 100%;
+}
+
+main .card .info {
+  margin: 0 2rem;
+  width: 100%;
+}
+
+main .card .info p:first-of-type,
+main .card .single-demo p:first-of-type {
+  font-weight: bold;
+}
